@@ -1,1 +1,3 @@
-
+tasks.shadowJar {
+    archiveFileName.set("${project.name}-${project.version}.jar")
+}

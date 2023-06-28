@@ -4,3 +4,7 @@ dependencies {
 }
 
 tasks.compileJava.dependsOn(':injection-core:shadowJar')
+
+tasks.shadowJar {
+    archiveFileName.set("${project.name}-${project.version}.jar")
+}
