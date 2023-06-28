@@ -12,5 +12,5 @@ tasks.shadowJar {
 }
 
 tasks.publishToMavenLocal {
-    archivesBaseName = archivesBaseName.replace("${project.name}", "injection-database-${project.name}")
+    archivesBaseName = archivesBaseName.replace("${project.name}", "injection-database-"+"${project.name}")
 }
